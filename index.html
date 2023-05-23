@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduce Myself with Responsive</title>
+    <link rel="stylesheet" href="/web practice/practice.html">
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+            width: 100%;
+            height: auto;
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header h1{
+            padding: 10px 15px;
+            color: rgb(108, 88, 76);
+            font-size: 160%;
+        }
+
+        header a{
+            padding: 10px 15px;
+            text-align: center;
+            margin-top: 5px; 
+            margin-right: 5px; 
+            text-decoration:none; 
+            background-color: white; height: 25px; 
+            padding: 4px 5px; color: black; 
+            border-radius: 5px;
+        }
+
+        img{
+            width: 150px;
+            border-radius: 300px;
+            border-style: solid;
+            border-color:  rgb(108, 88, 76);;
+            display: block; 
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+
+        .fullname{
+            text-align: center;
+            margin-top: 12px;
+        }
+
+        hr{
+            margin-top: 12px;
+            width: 80%; 
+            border: 2px solid;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h3{
+            margin-top: 12px;
+            margin-left: 10%; 
+            color: rgb(108, 88, 76);
+        }
+
+        .greet{
+            margin-top: 12px;
+            margin-left: 10%; 
+            width: 80%;
+            text-align: justify;
+        }
+
+        ul{
+            margin-top: 12px;
+            margin-left: 13%; 
+            font-size: 18px;
+        }
+
+        ul li{
+            padding: 3px;
+        }
+
+        .caption-title{
+            margin-top: 12px;
+            color: rgb(108, 88, 76); text-align: center;
+        }
+
+        .my-table{
+            width:80%; 
+            background-color:rgb(108, 88, 76); margin: auto;
+            border: 5px;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        .col-span{
+            background-color: rgb(81, 91, 30); 
+            color: white;
+        }
+
+        .table-data{
+            background-color: rgb(221, 229, 182);
+            color: black
+        }
+
+        .contact-title{
+            margin-top: 12px;
+            margin-left: 10%;
+            color: rgb(108, 88, 76); 
+        }
+
+        .contact-details{
+            margin-left: 10%; 
+            color: rgb(108, 88, 76); 
+            margin-top: 12px;
+        }
+
+        input{
+            margin-left: 10%; 
+            color: rgb(108, 88, 76); 
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            border-bottom: solid 1px;
+            padding: 20px 10px;
+            width: 80%;
+            margin-top: 12px;
+            margin-bottom: 20px;
+        }
+
+        button{
+            margin-left: 10%; 
+            padding: 15px 8px; 
+            cursor: pointer;
+            border: solid 1px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <i>All about Myself</i>
+        </h1>
+        <a href="/web practice/practice.html">LOG OUT</a>
+    </header>
+
+    <img src="/Image/Joshua_image.jpg">
+
+    <h2 class="fullname">
+        Joshua G&#46; Bolasa
+    </h2>
+
+    <hr>
+
+    <h3 id="Greetings">
+        Greetings
+    </h3>
+
+    <p class="greet">
+        Good Day sir Roman Villones. I am Bolasa, Joshua G. of BSIT 202A in Systems Plus Computer College Caloocan. My expectation from you is that you have patient with the students that hard to follow your lessons, since this is programming there is much logic that hard to understand. But of course, as a student of <abbr title="Bachelor of Science in Information Technology">BSIT</abbr>, we are trying to understand that logic, be patient, especially with those students that have no background when it comes to creating a web app or programming. In addition, I hope that we will have fun in your class and learn a lot, and also I hope that our section will create a good relationship with you. I choose <abbr title="Bachelor of Science in Information Technology">BSIT</abbr> because it is connected to my strand when I'm in grade 11 which is <abbr title="Information and Communication Technology">ICT</abbr>, and also I want to know more about the environment that will have an <abbr title="Information Technology">IT</abbr>&#46;
+    </p>
+
+    <h3>
+        My Profile
+    </h3>
+
+    <ul>
+        <li> <b>Name&#58;</b> Joshua Bolasa</li>
+        <li> <b>Age&#58;</b> 19</li>
+        <li> <b>Gender&#58;</b> Male</li>
+        <li> <b>Address&#58;</b> Brgy&#46; 7 Velasco Street</li>
+        <li> <b>Course&#58;</b> <abbr title="Bachelor of Science in Information Technology">BSIT</abbr></li>
+        <li> <b>School&#58;</b> <abbr title="Systems Plus Computer College">SPCC</abbr></li>
+    </ul> 
+
+    <h3>
+        My Hobbies
+    </h3>
+
+    <ul>
+        <li> <b>Sports&#58;</b> BasketBall&#44; Badminton</li>
+        <li> <b>Online Games&#58;</b> <abbr title="Mobile Legends">ML&#44;</abbr> 
+            <abbr title="Call Of Duty Mobile">CODM&#44;</abbr>
+            <abbr title="League of Legends">LOL&#44;</abbr> VALORANT</li>
+        <li> Watching kdrama&#44; anime&#44; and listening to music</li>
+    </ul> 
+
+    <h3>
+        My Favorite Music
+    </h3>
+
+    <ul>
+        <li>  
+             When Scars Become Art&#58;<a href="https://www.youtube.com/watch?v=pIdX9-gy_hE">https://www.youtube.com/watch?v=pIdX9-gy_hE</a>
+        </li>
+        <li> 
+            Still&#58;<a href="https://www.youtube.com/watch?v=AJlsKM_QPd8">https://www.youtube.com/watch?v=AJlsKM_QPd8</a> 
+            </li>
+            <li>  
+            Wrong About Forever&#58;<a href="https://www.youtube.com/watch?v=2JE-GNuYsZs">https://www.youtube.com/watch?v=2JE-GNuYsZs</a>
+        </li>
+    </ul> 
+
+    <h3>
+        My Favorite Kdrama and Anime
+    </h3>
+
+    <ul>
+        <li> <b>Kdrama&#58;</b> Big Mouth&#44; Fight for My Way&#44; and Vincenzo</li>
+        <li> <b>Anime&#58;</b> One Piece&#44; Blue Lock&#44; and My Hero Academia</li>
+    </ul>
+    
+    <hr>
+
+    <!--Table-->
+    <caption>
+        <h2 class="caption-title">CLASS SCHEDULE (2ND SEMESTER)</h2>
+    </caption>
+
+    <table class="my-table">
+
+        <colgroup>
+
+        <col span="4" class="col-span">
+
+        </colgroup>
+
+        <tr> 
+
+            <th>DAY</th>
+            <th>SUBJECT</th>
+            <th>TEACHER</th>
+            <th>TIME</th>
+
+        </tr>
+
+       <tr>
+
+            <td class="table-data" align="center">Monday</td>
+            <td class="table-data" align="center">Net1</td>
+            <td class="table-data" align="center">MR. ANTIGUA</td>
+            <td class="table-data" align="center">5PM - 7PM</td>
+
+       </tr>
+
+       <tr>
+
+        <td class="table-data" align="center">Tuesday</td>
+        <td class="table-data" align="center">WebApps</td>
+        <td class="table-data" align="center">MR. VILLONES</td>
+        <td class="table-data" align="center">5PM - 7PM</td>
+
+       </tr>
+
+       <tr>
+
+        <td class="table-data" align="center">Wednesday</td>
+        <td class="table-data" align="center">FUNDBS</td>
+        <td class="table-data" align="center">MR. Hulip</td>
+        <td class="table-data" align="center">5PM - 7PM</td>
+
+       </tr>
+       
+       <tr>
+        
+        <td class="table-data" align="center">Thursday</td>
+        <td class="table-data" align="center">PE4</td>
+        <td class="table-data" align="center">Ms. Hernandez</td>
+        <td class="table-data" align="center">5PM - 7PM</td>
+
+       </tr>
+
+       <tr>
+        
+        <td class="table-data" align="center">Friday</td>
+        <td class="table-data" align="center">INFOMAN</td>
+        <td class="table-data" align="center">Ms. Teves</td>
+        <td class="table-data" align="center">3PM - 5PM</td>
+
+       </tr>
+
+       <tr>
+        
+        <td align="center">Saturday</td>
+        <td align="center">INTECH 1</td>
+        <td align="center">Mr. Odtuhan</td>
+        <td align="center">9AM - 11AM</td>
+
+       </tr>
+
+       <tr>
+        
+        <td align="center">Saturday</td>
+        <td align="center">ANTECH</td>
+        <td align="center">Ms. Diaz</td>
+        <td align="center">1PM - 4PM</td>
+
+       </tr>
+
+       <tr>
+        
+        <td align="center">Saturday</td>
+        <td align="center">TECHNOP</td>
+        <td align="center">Mr. Duenas</td>
+        <td align="center">5PM - 7PM</td>
+
+       </tr>
+    </table>
+
+    <hr>
+
+    <!--CONTACT-->
+
+    <h2 class="contact-title" >If you want to contact me</h2>
+
+    <h3>MY CONTACT</h3>
+
+    <p  class="contact-details">Contact us by phone 00553123-2323 or email josh@bolasa.com, or you can send us a message here:</p>
+
+    <input type="text" placeholder="NAME">
+    <input type="number" placeholder="HOW MANY PEOPLE">
+    <input type="date">
+    <input type="text" placeholder="Message/Special Requirements">
+    <button>SEND MESSAGE</button>
+    <a href="#Greetings">Greetings</a>
+</body>
+</html>
